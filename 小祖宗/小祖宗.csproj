@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E42DE2B7-DEC3-41F2-898C-88DCE4A67C5A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>小祖宗</RootNamespace>
+    <AssemblyName>小祖宗</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Js\button.js" />
+    <Content Include="ref\button.html" />
+    <Content Include="ref\Husband\css\style.css" />
+    <Content Include="ref\Husband\heart.html" />
+    <Content Include="ref\Husband\husband.html" />
+    <Content Include="ref\Husband\img9.png" />
+    <Content Include="ref\Husband\img\img9.jpg" />
+    <Content Include="ref\Husband\img\img0.jpg" />
+    <Content Include="ref\Husband\img\img1.jpg" />
+    <Content Include="ref\Husband\img\img2.jpg" />
+    <Content Include="ref\Husband\img\img3.JPG" />
+    <Content Include="ref\Husband\img\img4.jpg" />
+    <Content Include="ref\Husband\img\img5.JPG" />
+    <Content Include="ref\Husband\img\img6.JPG" />
+    <Content Include="ref\Husband\img\img7.jpg" />
+    <Content Include="ref\Husband\img\img8.jpg" />
+    <Content Include="ref\Husband\img\img9.png" />
+    <Content Include="ref\Husband\js\jquery-1.11.1.min.js" />
+    <Content Include="ref\Map\1.png" />
+    <Content Include="ref\Map\10.png" />
+    <Content Include="ref\Map\11.png" />
+    <Content Include="ref\Map\12.png" />
+    <Content Include="ref\Map\13.jpg" />
+    <Content Include="ref\Map\2.png" />
+    <Content Include="ref\Map\3.png" />
+    <Content Include="ref\Map\4.png" />
+    <Content Include="ref\Map\5.png" />
+    <Content Include="ref\Map\6.png" />
+    <Content Include="ref\Map\7.png" />
+    <Content Include="ref\Map\8.png" />
+    <Content Include="ref\Map\9.png" />
+    <Content Include="ref\Map\js\jquery-1.7.2.min.js" />
+    <Content Include="ref\Map\map.html" />
+    <Content Include="ref\stories\css\demo.css" />
+    <Content Include="ref\stories\css\jquery.pageScroll3d.min.css" />
+    <Content Include="ref\stories\css\main.css" />
+    <Content Include="ref\stories\img\1.jpg" />
+    <Content Include="ref\stories\img\2.jpg" />
+    <Content Include="ref\stories\img\3.jpg" />
+    <Content Include="ref\stories\img\4.jpg" />
+    <Content Include="ref\stories\js\jquery-1.11.0.min.js" />
+    <Content Include="ref\stories\js\jquery.mousewheel.min.js" />
+    <Content Include="ref\stories\js\jquery.pageScroll3d.min.js" />
+    <Content Include="ref\stories\js\main.js" />
+    <Content Include="ref\stories\Stories.html" />
+    <Content Include="ref\一群可爱的人\css\demo.css" />
+    <Content Include="ref\一群可爱的人\css\htmleaf-demo.css" />
+    <Content Include="ref\一群可爱的人\css\mirror.css" />
+    <Content Include="ref\一群可爱的人\css\normalize.css" />
+    <Content Include="ref\一群可爱的人\Doctor.html" />
+    <Content Include="ref\一群可爱的人\Doctor2.html" />
+    <Content Include="ref\一群可爱的人\img2\1.jpg" />
+    <Content Include="ref\一群可爱的人\img2\2.jpg" />
+    <Content Include="ref\一群可爱的人\img2\3.jpg" />
+    <Content Include="ref\一群可爱的人\img2\4.jpg" />
+    <Content Include="ref\一群可爱的人\img2\5.jpg" />
+    <Content Include="ref\一群可爱的人\img2\6.jpg" />
+    <Content Include="ref\一群可爱的人\img2\8.jpg" />
+    <Content Include="ref\一群可爱的人\img2\9.jpg" />
+    <Content Include="ref\一群可爱的人\img\1.jpg" />
+    <Content Include="ref\一群可爱的人\img\11.jpg" />
+    <Content Include="ref\一群可爱的人\img\12.jpg" />
+    <Content Include="ref\一群可爱的人\img\13.jpg" />
+    <Content Include="ref\一群可爱的人\img\14.jpg" />
+    <Content Include="ref\一群可爱的人\img\15.jpg" />
+    <Content Include="ref\一群可爱的人\img\16.jpg" />
+    <Content Include="ref\一群可爱的人\img\2.jpg" />
+    <Content Include="ref\一群可爱的人\img\3.jpg" />
+    <Content Include="ref\一群可爱的人\img\4.jpg" />
+    <Content Include="ref\一群可爱的人\img\5.jpg" />
+    <Content Include="ref\一群可爱的人\img\7.jpg" />
+    <Content Include="ref\一群可爱的人\img\8.jpg" />
+    <Content Include="ref\一群可爱的人\img\9.jpg" />
+    <Content Include="ref\一群可爱的人\img\bg.jpg" />
+    <Content Include="ref\一群可爱的人\img\LicenseFreepik.txt" />
+    <Content Include="ref\一群可爱的人\img\sj-pic-pt.png" />
+    <Content Include="ref\一群可爱的人\index.html" />
+    <Content Include="ref\一群可爱的人\index3.html" />
+    <Content Include="ref\一群可爱的人\js\anime.min.js" />
+    <Content Include="ref\一群可爱的人\js\imagesloaded.pkgd.min.js" />
+    <Content Include="ref\一群可爱的人\js\mirrorFx.js" />
+    <Content Include="ref\一群可爱的人\js\slideshow.js" />
+    <Content Include="ref\似梦童年Photo\css\demo.css" />
+    <Content Include="ref\似梦童年Photo\css\normalize.css" />
+    <Content Include="ref\似梦童年Photo\css\style.css" />
+    <Content Include="ref\似梦童年Photo\img\1.JPG" />
+    <Content Include="ref\似梦童年Photo\img\2.jpg" />
+    <Content Include="ref\似梦童年Photo\img\3.JPG" />
+    <Content Include="ref\似梦童年Photo\img\4.JPG" />
+    <Content Include="ref\似梦童年Photo\img\5.JPG" />
+    <Content Include="ref\似梦童年Photo\js\index.js" />
+    <Content Include="ref\似梦童年Photo\似梦童年Photo.html" />
+    <Content Include="ref\似梦童年Word\css\demo.css" />
+    <Content Include="ref\似梦童年Word\css\normalize.css" />
+    <Content Include="ref\似梦童年Word\css\style.css" />
+    <Content Include="ref\似梦童年Word\img\1.jpg" />
+    <Content Include="ref\似梦童年Word\img\2.jpg" />
+    <Content Include="ref\似梦童年Word\img\3.jpg" />
+    <Content Include="ref\似梦童年Word\img\4.jpg" />
+    <Content Include="ref\似梦童年Word\img\5.jpg" />
+    <Content Include="ref\似梦童年Word\js\index.js" />
+    <Content Include="ref\似梦童年Word\似梦童年Word.html" />
+    <Content Include="ref\大十五\大十五相册\images\1.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\10.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\11.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\12.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\13.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\14.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\2.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\3.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\4.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\5.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\6.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\7.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\8.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\9.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\bar.jpg" />
+    <Content Include="ref\大十五\大十五相册\images\sign_in.png" />
+    <Content Include="ref\大十五\大十五相册\images\sign_out.png" />
+    <Content Include="ref\大十五\大十五相册\images\track.jpg" />
+    <Content Include="ref\大十五\大十五相册\js\easying.js" />
+    <Content Include="ref\大十五\大十五相册\js\jquery.beattext.js" />
+    <Content Include="ref\大十五\大十五相册\js\jquery.min.js" />
+    <Content Include="ref\大十五\大十五相册\js\jquery.min1.js" />
+    <Content Include="ref\大十五\大十五相册\我们不散场.html" />
+    <Content Include="ref\大十五\大十五视频\css\flat-ui.css" />
+    <Content Include="ref\大十五\大十五视频\images\video\fullscreen-2x.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\fullscreen.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\pause-2x.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\pause.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\play-2x.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\play.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\poster.jpg" />
+    <Content Include="ref\大十五\大十五视频\images\video\volume-full-2x.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\volume-full.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\volume-off-2x.png" />
+    <Content Include="ref\大十五\大十五视频\images\video\volume-off.png" />
+    <Content Include="ref\大十五\大十五视频\js\video.js" />
+    <Content Include="ref\大十五\大十五视频\大十五的日常.mp4" />
+    <Content Include="ref\大十五\大十五视频\我们不散场video.html" />
+    <Content Include="ref\小祖宗时间线\css\styles.css" />
+    <Content Include="ref\小祖宗时间线\css\styles2.css" />
+    <Content Include="ref\小祖宗时间线\css\stylesv.css" />
+    <Content Include="ref\小祖宗时间线\css\小祖宗.jpg" />
+    <Content Include="ref\小祖宗时间线\excanvas.js" />
+    <Content Include="ref\小祖宗时间线\images\1.jpg" />
+    <Content Include="ref\小祖宗时间线\images\10.jpg" />
+    <Content Include="ref\小祖宗时间线\images\2.png" />
+    <Content Include="ref\小祖宗时间线\images\3.jpg" />
+    <Content Include="ref\小祖宗时间线\images\4.jpg" />
+    <Content Include="ref\小祖宗时间线\images\5.jpg" />
+    <Content Include="ref\小祖宗时间线\images\6.png" />
+    <Content Include="ref\小祖宗时间线\images\7.png" />
+    <Content Include="ref\小祖宗时间线\images\8.jpg" />
+    <Content Include="ref\小祖宗时间线\images\9.jpg" />
+    <Content Include="ref\小祖宗时间线\images\biggerdot.png" />
+    <Content Include="ref\小祖宗时间线\images\dot.gif" />
+    <Content Include="ref\小祖宗时间线\images\grad_bottom.png" />
+    <Content Include="ref\小祖宗时间线\images\grad_left.png" />
+    <Content Include="ref\小祖宗时间线\images\grad_right.png" />
+    <Content Include="ref\小祖宗时间线\images\grad_top.png" />
+    <Content Include="ref\小祖宗时间线\images\next.png" />
+    <Content Include="ref\小祖宗时间线\images\next_v.png" />
+    <Content Include="ref\小祖宗时间线\images\prev.png" />
+    <Content Include="ref\小祖宗时间线\images\prev_v.png" />
+    <Content Include="ref\小祖宗时间线\img\1.jpg" />
+    <Content Include="ref\小祖宗时间线\img\bg_vert.jpg" />
+    <Content Include="ref\小祖宗时间线\jquery.js" />
+    <Content Include="ref\小祖宗时间线\jquery.min.js" />
+    <Content Include="ref\小祖宗时间线\jquery.tagcanvas.js" />
+    <Content Include="ref\小祖宗时间线\jquery.timelinr-0.9.4.js" />
+    <Content Include="ref\小祖宗时间线\xzz.html" />
+    <Content Include="ref\小祖宗时间线\xzzTime.html" />
+    <Content Include="Style\button.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ref\一群可爱的人\img\veggie1.svg" />
+    <Content Include="ref\一群可爱的人\img\veggie2.svg" />
+    <Content Include="ref\一群可爱的人\img\veggie3.svg" />
+    <Content Include="ref\一群可爱的人\img\veggie4.svg" />
+    <Content Include="ref\一群可爱的人\img\wave1.svg" />
+    <Content Include="ref\一群可爱的人\img\wave2.svg" />
+    <Content Include="ref\一群可爱的人\img\wave3.svg" />
+    <Content Include="ref\一群可爱的人\img\wave4.svg" />
+    <Content Include="ref\大十五\大十五相册\images\Thumbs.db" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:28540/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

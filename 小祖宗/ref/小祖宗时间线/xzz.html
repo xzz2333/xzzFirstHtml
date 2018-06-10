@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>小祖宗TimeLine</title>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<link rel="stylesheet" type="text/css" href="css/styles2.css"/>
+    <link href="../../Style/button.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery.js"></script>
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery.tagcanvas.js"  type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (!$('#myCanvas').tagcanvas({
+                textColour: '#ffffff',
+                outlineThickness: 1,
+                    maxSpeed: 0.03,
+                depth:0.75
+            })) {
+                // TagCanvas failed to load
+                $('#myCanvasContainer').hide();
+            }
+            // your other jQuery stuff here...
+        });
+ </script>
+
+
+	<script src="jquery.timelinr-0.9.4.js" type="text/javascript"></script>
+	<script type="text/javascript"> 
+		$(function(){
+			$().timelinr({
+				autoPlay: 'true',
+				autoPlayDirection: 'forward',
+				startAt: 4
+			})
+		});
+	</script>
+
+<style>
+.td{
+font-size: 55px;
+flood-color:lightseagreen;
+font-family: 华文行楷;
+}
+.t{
+font-size: 15px;
+font-family: 华文行楷;
+}
+</style>
+
+</head>
+
+<body id="introduction">
+
+    <div id="boxes">
+	<div style="--color: #f44336"><a href="xzzTime.html">小祖宗</a></div>
+	<div style="--color: #e91e63"><a href="../似梦童年Photo/似梦童年Photo.html">Childhood</a></div>
+	<div style="--color: #9c27b0"><a href="../大十五/大十五视频/我们不散场video.html">那年那月那人</a></div>
+	<div style="--color: #2196f3"><a href="../stories/Stories.html">On The Way</a></div>
+	<div style="--color: #4caf50"><a href="../Husband/husband.html">hhhh..husband</a></div>
+	<div style="--color: #ff9800"><a href="../Map/map.html">就是有这种操作</a></div>
+    <div style="--color: greenyellow"><a href="../似梦童年Word/似梦童年Word.html">流年似梦</a></div>
+    <div style="--color: gainsboro"><a href="../一群可爱的人/index.html">听说你要搞事情？</a></div>
+    <div style="--color: lightgoldenrodyellow"><a href="../一群可爱的人/Doctor.html">一群可爱的人</a></div>
+</div>
+
+<div id="page">
+<div class="demotips"><p class="td">一份小祖宗的使用说明？</p></div>
+
+<div id="Div1">
+	<div id="Div2" class="content clearfix" >
+<!---->
+    <hr width="95%" size="3px"/>
+ <canvas width="400" height="400" id="myCanvas" >
+  <p>Anything in here will be replaced on browsers that support the canvas element</p>
+  <ul>
+   <li><a href="../似梦童年Photo/似梦童年Photo.html">流年似梦</a></li>
+   <li><a href="../大十五/大十五视频/我们不散场video.html">那年那月那人</a></li>
+   <li><a href="../大十五/大十五视频/我们不散场video.html">当年他们以一敌五？</a></li>
+   <li><a href="../似梦童年Word/似梦童年Word.html">Childhood</a></li>
+   <li><a href="../似梦童年Word/似梦童年Word.html">写写写</a></li>
+   <li><a href="../stories/Stories.html">静待花开</a></li>
+   <li><a href="../Map/map.html">骚操作</a></li>
+   <li><a href="../一群可爱的人/index.html">搞事情哇</a></li>
+   <li><a href="../一群可爱的人/Doctor.html">Doctor Who</a></li>
+   <li><a href="../一群可爱的人/Doctor2.html">Who？  Who？  Who？</a></li>
+   <li><a href="../Husband/husband.html">是老公哎..</a></li>
+   <li><a href="../Husband/husband.html">hhhh...husband？</a></li>
+   <li><a href="https://github.com/xzz2333">这里空空如也</a> </li>
+  </ul>
+ </canvas>
+        <div class="left">
+            <p class="t">小声嘀咕，戳上面的云团可以实现链接的哟</p>
+        </div>
+    <hr width="95%" size="3px"/>
+  </div>
+ </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> 
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+
+</div>
+
+
+
+
+<script>
+    var boxes = document.querySelectorAll('#boxes > div');
+    [].forEach.call(boxes, box => {
+        box.addEventListener('mousemove', e => {
+            document.body.style.setProperty(
+              '--bg-color',
+              box.style.getPropertyValue('--color')
+            );
+
+    var size = parseInt(getComputedStyle(box).width);
+      
+    // scaling
+    var x = size * .3 * .7 + .7 * e.offsetX;
+    var y = size * .3 * .7 + .7 * e.offsetY;
+      
+    box.style.setProperty('--x', x);
+    box.style.setProperty('--y', y);
+    box.style.setProperty('--size', size);
+    });
+    });
+</script>
+
+
+</body>
+</html>

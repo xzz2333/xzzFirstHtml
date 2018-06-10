@@ -1,0 +1,4 @@
+F:\小祖宗\小祖宗\bin\小祖宗.dll
+F:\小祖宗\小祖宗\bin\小祖宗.pdb
+F:\小祖宗\小祖宗\obj\Debug\小祖宗.dll
+F:\小祖宗\小祖宗\obj\Debug\小祖宗.pdb
