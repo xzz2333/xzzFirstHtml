@@ -1,0 +1,5 @@
+F:\xzz\red\red\bin\red.dll
+F:\xzz\red\red\bin\red.pdb
+F:\xzz\red\red\obj\Debug\red.csprojResolveAssemblyReference.cache
+F:\xzz\red\red\obj\Debug\red.dll
+F:\xzz\red\red\obj\Debug\red.pdb
